@@ -67,7 +67,6 @@ pipeline {
       }
     }
 
-  }
   
  stage('Deploy to Dev') {
       when {
@@ -86,4 +85,5 @@ pipeline {
 tools {
     maven 'Maven 3.6.3'
   }
+}
 }
