@@ -81,9 +81,8 @@ pipeline {
         sh 'docker-compose up -d'
       }
     }
-
+  }
 tools {
     maven 'Maven 3.6.3'
   }
-}
 }
